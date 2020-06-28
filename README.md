@@ -49,7 +49,7 @@ Important: Please ensure that your ZooKeeper instance is up and running before s
 2. Describe Topic:
     kafka-topics.bat --describe --zookeeper localhost:2181 --topic [Topic Name]
 3. Read messages from the beginning
-    kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [Topic Name] --from-beginn
+    kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [Topic Name] --from-beginning
 4. Delete Topic:
     kafka-run-class.bat kafka.admin.TopicCommand --delete --topic [topic_to_delete] --zookeeper localhost:2181
 
